@@ -2,7 +2,7 @@ export const typeDefs = `#graphql
   type Game {
     id: ID!
     title: String!
-    platform: [string!]!
+    platform: [String!]!
   }
   type Review {
     id: ID!
@@ -12,7 +12,7 @@ export const typeDefs = `#graphql
   type Author {
     id: ID!
     name: String!
-    verified: Bollean!
+    verified: Boolean!
   }
   type Query {
     reviews: [Review]
